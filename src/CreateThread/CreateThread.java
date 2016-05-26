@@ -1,3 +1,5 @@
+package CreateThread;
+
 public class CreateThread extends Thread {
 
     public String mensaje ;
@@ -30,7 +32,7 @@ public class CreateThread extends Thread {
     public static void main(String[] args)
     {
         /*
-        Instanciem els objectes CrearFils
+        Instanciem els objectes CreateThread2
          */
         CreateThread fil1 = new CreateThread("Fil 1 ");
         CreateThread fil2 = new CreateThread("Fil 2 ");
